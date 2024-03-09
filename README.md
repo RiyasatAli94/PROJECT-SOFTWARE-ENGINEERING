@@ -3,6 +3,37 @@ Famtracker emerges as a groundbreaking application, poised to reshape the landsc
 The heart of Famtracker lies in its intuitive interface, which simplifies habit tracking and empowers users to effortlessly monitor their progress. The application serves as more than just a reliable tracker; it doubles as a motivational tool, offering valuable insights and analytics to inspire and encourage users on their journey toward a healthier lifestyle. Through this combination of practicality and motivation, Famtracker aims to foster a sense of commitment and accountability, ensuring that users remain steadfast in their pursuit of well-being goals.
 At the core of Famtracker's philosophy is the belief that every individual is unique, and their journey towards a healthier life should reflect that uniqueness. By allowing users to create and personalize their habit schedules, the application acknowledges the diverse nature of personal preferences and lifestyles. This recognition not only enhances user engagement but also significantly contributes to the effectiveness of the habit-forming process.
 
+<!DOCTYPE html>
+<html>
+<title>W3.CSS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<body>
+
+<div class="w3-container">
+<h2>Mobile First Responsiveness</h2>
+<p class="w3-large">Try to resize the window!</p>
+</div>
+
+<div class="w3-row w3-border">
+<div class="w3-quarter w3-container w3-red">
+  <h2>w3-quarter</h2>  
+  <p>The w3-quarter class uses 25% of the parent container.</p>
+  <p>On screens smaller than 601 pixels it resizes to full screen.</p>
+</div>
+<div class="w3-quarter w3-container">
+  <h2>w3-quarter</h2>
+</div>
+<div class="w3-quarter w3-container">
+  <h2>w3-quarter</h2>
+</div>
+<div class="w3-quarter w3-container">
+  <h2>w3-quarter</h2>
+</div>
+</div>
+
+</body>
+</html>      
 
 
 # Splash Screen
