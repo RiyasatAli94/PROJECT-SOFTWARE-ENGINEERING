@@ -4,8 +4,6 @@ The heart of Famtracker lies in its intuitive interface, which simplifies habit 
 At the core of Famtracker's philosophy is the belief that every individual is unique, and their journey towards a healthier life should reflect that uniqueness. By allowing users to create and personalize their habit schedules, the application acknowledges the diverse nature of personal preferences and lifestyles. This recognition not only enhances user engagement but also significantly contributes to the effectiveness of the habit-forming process.
 
 
-
-<img src="https://img.shields.io/github/stars/abhisheknaiidu/awesome-github-profile-readme](https://github.com/RiyasatAli94/PROJECT-SOFTWARE-ENGINEERING/assets/118036458/ed9235a7-650e-4181-b1bd-6b038a0f677a" alt="Stars Badge" width="250"/>
 # Splash Screen
 ![IMG_2431](https://github.com/RiyasatAli94/PROJECT-SOFTWARE-ENGINEERING/assets/118036458/ed9235a7-650e-4181-b1bd-6b038a0f677a)
 
