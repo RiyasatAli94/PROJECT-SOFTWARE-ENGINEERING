@@ -5,11 +5,11 @@ At the core of Famtracker's philosophy is the belief that every individual is un
 
 
 
-
+<img src="https://img.shields.io/github/stars/abhisheknaiidu/awesome-github-profile-readme](https://github.com/RiyasatAli94/PROJECT-SOFTWARE-ENGINEERING/assets/118036458/ed9235a7-650e-4181-b1bd-6b038a0f677a" alt="Stars Badge" width="250"/>
 # Splash Screen
 ![IMG_2431](https://github.com/RiyasatAli94/PROJECT-SOFTWARE-ENGINEERING/assets/118036458/ed9235a7-650e-4181-b1bd-6b038a0f677a)
 
-Location Permission PopUp
+# Location Permission PopUp
 ![IMG_2446](https://github.com/RiyasatAli94/PROJECT-SOFTWARE-ENGINEERING/assets/118036458/a742c803-82ad-4a14-a531-2c68b74b9049)
 
 # Notification Permission PopUp
