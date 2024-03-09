@@ -1,0 +1,6 @@
+framework module Pods_FamTracker {
+  umbrella header "Pods-FamTracker-umbrella.h"
+
+  export *
+  module * { export * }
+}

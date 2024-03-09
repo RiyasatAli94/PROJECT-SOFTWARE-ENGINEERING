@@ -1,0 +1,1030 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		30664CB5DD3CE0DB5DD997C7 /* Pods_FamTracker_FamTrackerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E10A3A5E777C1C3B4D4181B4 /* Pods_FamTracker_FamTrackerUITests.framework */; };
+		952F2FBE2832D2CD009405F3 /* CreateYourOwnVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952F2FBD2832D2CD009405F3 /* CreateYourOwnVC.swift */; };
+		952F2FC22832D536009405F3 /* Screen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952F2FC12832D536009405F3 /* Screen.swift */; };
+		957EA58F283621370017D1AC /* Habits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957EA58E283621370017D1AC /* Habits.swift */; };
+		957EA591283638AD0017D1AC /* showHabitsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957EA590283638AD0017D1AC /* showHabitsViewController.swift */; };
+		957F462328335C2600ADD0A8 /* Register.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957F462228335C2600ADD0A8 /* Register.swift */; };
+		957F462628335FA600ADD0A8 /* RegisterUserVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957F462528335FA600ADD0A8 /* RegisterUserVC.swift */; };
+		957F46282833723000ADD0A8 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957F46272833723000ADD0A8 /* Utils.swift */; };
+		957F462C28337CE500ADD0A8 /* MyHabitsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957F462B28337CE500ADD0A8 /* MyHabitsVC.swift */; };
+		957F462E28337D6100ADD0A8 /* MyHabitsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957F462D28337D6100ADD0A8 /* MyHabitsTableViewCell.swift */; };
+		957F463128338FB800ADD0A8 /* Alert.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 957F463028338FB800ADD0A8 /* Alert.storyboard */; };
+		957F463328338FED00ADD0A8 /* LocationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957F463228338FED00ADD0A8 /* LocationVC.swift */; };
+		957F46352833900900ADD0A8 /* AlertService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957F46342833900900ADD0A8 /* AlertService.swift */; };
+		957FF1672832A44F00C12DFC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957FF1662832A44F00C12DFC /* AppDelegate.swift */; };
+		957FF1692832A44F00C12DFC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957FF1682832A44F00C12DFC /* SceneDelegate.swift */; };
+		957FF16B2832A44F00C12DFC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957FF16A2832A44F00C12DFC /* ViewController.swift */; };
+		957FF16E2832A44F00C12DFC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 957FF16C2832A44F00C12DFC /* Main.storyboard */; };
+		957FF1712832A44F00C12DFC /* FamTracker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 957FF16F2832A44F00C12DFC /* FamTracker.xcdatamodeld */; };
+		957FF1732832A45700C12DFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 957FF1722832A45700C12DFC /* Assets.xcassets */; };
+		957FF1762832A45700C12DFC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 957FF1742832A45700C12DFC /* LaunchScreen.storyboard */; };
+		957FF1812832A45700C12DFC /* FamTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957FF1802832A45700C12DFC /* FamTrackerTests.swift */; };
+		957FF18B2832A45700C12DFC /* FamTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957FF18A2832A45700C12DFC /* FamTrackerUITests.swift */; };
+		957FF18D2832A45800C12DFC /* FamTrackerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957FF18C2832A45800C12DFC /* FamTrackerUITestsLaunchTests.swift */; };
+		957FF19B2832BAC500C12DFC /* ListHabbitsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957FF19A2832BAC500C12DFC /* ListHabbitsViewController.swift */; };
+		957FF19E2832BAE700C12DFC /* ListHabbitCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957FF19D2832BAE700C12DFC /* ListHabbitCollectionViewCell.swift */; };
+		957FF1A12832BC2D00C12DFC /* ListArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957FF1A02832BC2D00C12DFC /* ListArray.swift */; };
+		9588C85D2847D6ED00297131 /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9588C85C2847D6ED00297131 /* ApiManager.swift */; };
+		9588C8622847D7C600297131 /* Yoga_categories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9588C85F2847D7C600297131 /* Yoga_categories.swift */; };
+		9588C8632847D7C600297131 /* Yoga.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9588C8602847D7C600297131 /* Yoga.swift */; };
+		9588C8642847D7C600297131 /* Items.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9588C8612847D7C600297131 /* Items.swift */; };
+		9588C8672847DC4900297131 /* LaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9588C8662847DC4900297131 /* LaunchViewController.swift */; };
+		95899FE5284DF23800626AD6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 95899FE4284DF23800626AD6 /* GoogleService-Info.plist */; };
+		958B6ABA284F5509001294CC /* AboutUsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958B6AB9284F5509001294CC /* AboutUsTableViewCell.swift */; };
+		958B6ABC284F5520001294CC /* AboutUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958B6ABB284F5520001294CC /* AboutUsViewController.swift */; };
+		95A03A2A2833BE4B00DCBFC7 /* DateAndTimePickerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A03A292833BE4B00DCBFC7 /* DateAndTimePickerVC.swift */; };
+		95A03A2C2833BF6C00DCBFC7 /* DateConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A03A2B2833BF6C00DCBFC7 /* DateConverter.swift */; };
+		95A03A2E2833D09600DCBFC7 /* DayPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A03A2D2833D09600DCBFC7 /* DayPickerViewController.swift */; };
+		95A03A312833D24000DCBFC7 /* DayPickerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A03A302833D24000DCBFC7 /* DayPickerTableViewCell.swift */; };
+		95A03A33283413F900DCBFC7 /* GoalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A03A32283413F900DCBFC7 /* GoalViewController.swift */; };
+		95D2543D28491EB000C13C0A /* YogaPoseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D2543C28491EB000C13C0A /* YogaPoseTableViewCell.swift */; };
+		95D2544028491EFF00C13C0A /* YogaPoseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D2543F28491EFF00C13C0A /* YogaPoseViewController.swift */; };
+		B33041B8C86E7B7DD8868748 /* Pods_FamTrackerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0146EEF21AE970903D9CE836 /* Pods_FamTrackerTests.framework */; };
+		E9385747C37D737B465A7580 /* Pods_FamTracker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13D190B0A4CA6844A82CC94E /* Pods_FamTracker.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		957FF17D2832A45700C12DFC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 957FF15B2832A44F00C12DFC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 957FF1622832A44F00C12DFC;
+			remoteInfo = FamTracker;
+		};
+		957FF1872832A45700C12DFC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 957FF15B2832A44F00C12DFC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 957FF1622832A44F00C12DFC;
+			remoteInfo = FamTracker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0146EEF21AE970903D9CE836 /* Pods_FamTrackerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FamTrackerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		13D190B0A4CA6844A82CC94E /* Pods_FamTracker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FamTracker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		19273EF956A97798B2750FCD /* Pods-FamTrackerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FamTrackerTests.debug.xcconfig"; path = "Target Support Files/Pods-FamTrackerTests/Pods-FamTrackerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4D4A7A25892C75145312C654 /* Pods-FamTrackerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FamTrackerTests.release.xcconfig"; path = "Target Support Files/Pods-FamTrackerTests/Pods-FamTrackerTests.release.xcconfig"; sourceTree = "<group>"; };
+		564CD8497891261ED00FAD67 /* Pods-FamTracker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FamTracker.debug.xcconfig"; path = "Target Support Files/Pods-FamTracker/Pods-FamTracker.debug.xcconfig"; sourceTree = "<group>"; };
+		8236EFDFCDFDE60F644FE3DA /* Pods-FamTracker-FamTrackerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FamTracker-FamTrackerUITests.debug.xcconfig"; path = "Target Support Files/Pods-FamTracker-FamTrackerUITests/Pods-FamTracker-FamTrackerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		952F2FBD2832D2CD009405F3 /* CreateYourOwnVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateYourOwnVC.swift; sourceTree = "<group>"; };
+		952F2FC12832D536009405F3 /* Screen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Screen.swift; sourceTree = "<group>"; };
+		957EA58E283621370017D1AC /* Habits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Habits.swift; sourceTree = "<group>"; };
+		957EA590283638AD0017D1AC /* showHabitsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = showHabitsViewController.swift; sourceTree = "<group>"; };
+		957F462228335C2600ADD0A8 /* Register.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Register.swift; sourceTree = "<group>"; };
+		957F462528335FA600ADD0A8 /* RegisterUserVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterUserVC.swift; sourceTree = "<group>"; };
+		957F46272833723000ADD0A8 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		957F462B28337CE500ADD0A8 /* MyHabitsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyHabitsVC.swift; sourceTree = "<group>"; };
+		957F462D28337D6100ADD0A8 /* MyHabitsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyHabitsTableViewCell.swift; sourceTree = "<group>"; };
+		957F463028338FB800ADD0A8 /* Alert.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Alert.storyboard; sourceTree = "<group>"; };
+		957F463228338FED00ADD0A8 /* LocationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationVC.swift; sourceTree = "<group>"; };
+		957F46342833900900ADD0A8 /* AlertService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertService.swift; sourceTree = "<group>"; };
+		957FF1632832A44F00C12DFC /* FamTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FamTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		957FF1662832A44F00C12DFC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		957FF1682832A44F00C12DFC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		957FF16A2832A44F00C12DFC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		957FF16D2832A44F00C12DFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		957FF1702832A44F00C12DFC /* FamTracker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FamTracker.xcdatamodel; sourceTree = "<group>"; };
+		957FF1722832A45700C12DFC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		957FF1752832A45700C12DFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		957FF1772832A45700C12DFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		957FF17C2832A45700C12DFC /* FamTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FamTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		957FF1802832A45700C12DFC /* FamTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FamTrackerTests.swift; sourceTree = "<group>"; };
+		957FF1862832A45700C12DFC /* FamTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FamTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		957FF18A2832A45700C12DFC /* FamTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FamTrackerUITests.swift; sourceTree = "<group>"; };
+		957FF18C2832A45800C12DFC /* FamTrackerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FamTrackerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		957FF19A2832BAC500C12DFC /* ListHabbitsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListHabbitsViewController.swift; sourceTree = "<group>"; };
+		957FF19D2832BAE700C12DFC /* ListHabbitCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListHabbitCollectionViewCell.swift; sourceTree = "<group>"; };
+		957FF1A02832BC2D00C12DFC /* ListArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListArray.swift; sourceTree = "<group>"; };
+		9588C85C2847D6ED00297131 /* ApiManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
+		9588C85F2847D7C600297131 /* Yoga_categories.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Yoga_categories.swift; sourceTree = "<group>"; };
+		9588C8602847D7C600297131 /* Yoga.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Yoga.swift; sourceTree = "<group>"; };
+		9588C8612847D7C600297131 /* Items.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Items.swift; sourceTree = "<group>"; };
+		9588C8662847DC4900297131 /* LaunchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchViewController.swift; sourceTree = "<group>"; };
+		95899FE4284DF23800626AD6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		958B6AB9284F5509001294CC /* AboutUsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutUsTableViewCell.swift; sourceTree = "<group>"; };
+		958B6ABB284F5520001294CC /* AboutUsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutUsViewController.swift; sourceTree = "<group>"; };
+		95A03A292833BE4B00DCBFC7 /* DateAndTimePickerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateAndTimePickerVC.swift; sourceTree = "<group>"; };
+		95A03A2B2833BF6C00DCBFC7 /* DateConverter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateConverter.swift; sourceTree = "<group>"; };
+		95A03A2D2833D09600DCBFC7 /* DayPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayPickerViewController.swift; sourceTree = "<group>"; };
+		95A03A302833D24000DCBFC7 /* DayPickerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayPickerTableViewCell.swift; sourceTree = "<group>"; };
+		95A03A32283413F900DCBFC7 /* GoalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalViewController.swift; sourceTree = "<group>"; };
+		95D2543C28491EB000C13C0A /* YogaPoseTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YogaPoseTableViewCell.swift; sourceTree = "<group>"; };
+		95D2543F28491EFF00C13C0A /* YogaPoseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YogaPoseViewController.swift; sourceTree = "<group>"; };
+		B028EC52AFC109C601573131 /* Pods-FamTracker-FamTrackerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FamTracker-FamTrackerUITests.release.xcconfig"; path = "Target Support Files/Pods-FamTracker-FamTrackerUITests/Pods-FamTracker-FamTrackerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E10A3A5E777C1C3B4D4181B4 /* Pods_FamTracker_FamTrackerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FamTracker_FamTrackerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E587860B2F82CE3830D6A709 /* Pods-FamTracker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FamTracker.release.xcconfig"; path = "Target Support Files/Pods-FamTracker/Pods-FamTracker.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		957FF1602832A44F00C12DFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9385747C37D737B465A7580 /* Pods_FamTracker.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		957FF1792832A45700C12DFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B33041B8C86E7B7DD8868748 /* Pods_FamTrackerTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		957FF1832832A45700C12DFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30664CB5DD3CE0DB5DD997C7 /* Pods_FamTracker_FamTrackerUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		952F2FC02832D50B009405F3 /* ScreenManager */ = {
+			isa = PBXGroup;
+			children = (
+				952F2FC12832D536009405F3 /* Screen.swift */,
+			);
+			path = ScreenManager;
+			sourceTree = "<group>";
+		};
+		957EA58D283621270017D1AC /* HabitsData */ = {
+			isa = PBXGroup;
+			children = (
+				957EA58E283621370017D1AC /* Habits.swift */,
+			);
+			path = HabitsData;
+			sourceTree = "<group>";
+		};
+		957F462028335BDC00ADD0A8 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				957EA58D283621270017D1AC /* HabitsData */,
+				957F462128335C1000ADD0A8 /* RegisterUser */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		957F462128335C1000ADD0A8 /* RegisterUser */ = {
+			isa = PBXGroup;
+			children = (
+				957F462228335C2600ADD0A8 /* Register.swift */,
+			);
+			path = RegisterUser;
+			sourceTree = "<group>";
+		};
+		957F462428335F8E00ADD0A8 /* Regsiter & Login */ = {
+			isa = PBXGroup;
+			children = (
+				957FF16A2832A44F00C12DFC /* ViewController.swift */,
+				957F462528335FA600ADD0A8 /* RegisterUserVC.swift */,
+				958B6ABB284F5520001294CC /* AboutUsViewController.swift */,
+			);
+			path = "Regsiter & Login";
+			sourceTree = "<group>";
+		};
+		957F4629283372D000ADD0A8 /* AppDelegates */ = {
+			isa = PBXGroup;
+			children = (
+				957FF1662832A44F00C12DFC /* AppDelegate.swift */,
+				957FF1682832A44F00C12DFC /* SceneDelegate.swift */,
+			);
+			path = AppDelegates;
+			sourceTree = "<group>";
+		};
+		957F462A28337CCD00ADD0A8 /* MyHabitsDashboard */ = {
+			isa = PBXGroup;
+			children = (
+				957F462B28337CE500ADD0A8 /* MyHabitsVC.swift */,
+				957EA590283638AD0017D1AC /* showHabitsViewController.swift */,
+			);
+			path = MyHabitsDashboard;
+			sourceTree = "<group>";
+		};
+		957F462F28338FA100ADD0A8 /* Alerts */ = {
+			isa = PBXGroup;
+			children = (
+				95A03A2F2833D22C00DCBFC7 /* AlertCell */,
+				957F463028338FB800ADD0A8 /* Alert.storyboard */,
+				957F46342833900900ADD0A8 /* AlertService.swift */,
+				957F463228338FED00ADD0A8 /* LocationVC.swift */,
+				95A03A292833BE4B00DCBFC7 /* DateAndTimePickerVC.swift */,
+				95A03A2D2833D09600DCBFC7 /* DayPickerViewController.swift */,
+				95A03A32283413F900DCBFC7 /* GoalViewController.swift */,
+			);
+			path = Alerts;
+			sourceTree = "<group>";
+		};
+		957FF15A2832A44F00C12DFC = {
+			isa = PBXGroup;
+			children = (
+				957FF1652832A44F00C12DFC /* FamTracker */,
+				957FF17F2832A45700C12DFC /* FamTrackerTests */,
+				957FF1892832A45700C12DFC /* FamTrackerUITests */,
+				957FF1642832A44F00C12DFC /* Products */,
+				DB5E486312D8BF6BE003D560 /* Pods */,
+				DA0A5C1E9D6A60B08C365869 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		957FF1642832A44F00C12DFC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				957FF1632832A44F00C12DFC /* FamTracker.app */,
+				957FF17C2832A45700C12DFC /* FamTrackerTests.xctest */,
+				957FF1862832A45700C12DFC /* FamTrackerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		957FF1652832A44F00C12DFC /* FamTracker */ = {
+			isa = PBXGroup;
+			children = (
+				9588C85E2847D7A900297131 /* Models */,
+				9588C85B2847D6CC00297131 /* APIManager */,
+				957F462F28338FA100ADD0A8 /* Alerts */,
+				957F4629283372D000ADD0A8 /* AppDelegates */,
+				957F462028335BDC00ADD0A8 /* CoreData */,
+				952F2FC02832D50B009405F3 /* ScreenManager */,
+				957FF19F2832BC0F00C12DFC /* HelperFiles */,
+				957FF19C2832BAD000C12DFC /* Views */,
+				957FF1992832BAA900C12DFC /* Controllers */,
+				957FF16C2832A44F00C12DFC /* Main.storyboard */,
+				957FF1722832A45700C12DFC /* Assets.xcassets */,
+				957FF1742832A45700C12DFC /* LaunchScreen.storyboard */,
+				957FF1772832A45700C12DFC /* Info.plist */,
+				95899FE4284DF23800626AD6 /* GoogleService-Info.plist */,
+				957FF16F2832A44F00C12DFC /* FamTracker.xcdatamodeld */,
+			);
+			path = FamTracker;
+			sourceTree = "<group>";
+		};
+		957FF17F2832A45700C12DFC /* FamTrackerTests */ = {
+			isa = PBXGroup;
+			children = (
+				957FF1802832A45700C12DFC /* FamTrackerTests.swift */,
+			);
+			path = FamTrackerTests;
+			sourceTree = "<group>";
+		};
+		957FF1892832A45700C12DFC /* FamTrackerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				957FF18A2832A45700C12DFC /* FamTrackerUITests.swift */,
+				957FF18C2832A45800C12DFC /* FamTrackerUITestsLaunchTests.swift */,
+			);
+			path = FamTrackerUITests;
+			sourceTree = "<group>";
+		};
+		957FF1992832BAA900C12DFC /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				95D2543E28491EE700C13C0A /* Yoga-Pose */,
+				9588C8652847DC3100297131 /* LaunchScreen */,
+				957F462A28337CCD00ADD0A8 /* MyHabitsDashboard */,
+				957F462428335F8E00ADD0A8 /* Regsiter & Login */,
+				957FF19A2832BAC500C12DFC /* ListHabbitsViewController.swift */,
+				952F2FBD2832D2CD009405F3 /* CreateYourOwnVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		957FF19C2832BAD000C12DFC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				957FF19D2832BAE700C12DFC /* ListHabbitCollectionViewCell.swift */,
+				957F462D28337D6100ADD0A8 /* MyHabitsTableViewCell.swift */,
+				95D2543C28491EB000C13C0A /* YogaPoseTableViewCell.swift */,
+				958B6AB9284F5509001294CC /* AboutUsTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		957FF19F2832BC0F00C12DFC /* HelperFiles */ = {
+			isa = PBXGroup;
+			children = (
+				957FF1A02832BC2D00C12DFC /* ListArray.swift */,
+				957F46272833723000ADD0A8 /* Utils.swift */,
+				95A03A2B2833BF6C00DCBFC7 /* DateConverter.swift */,
+			);
+			path = HelperFiles;
+			sourceTree = "<group>";
+		};
+		9588C85B2847D6CC00297131 /* APIManager */ = {
+			isa = PBXGroup;
+			children = (
+				9588C85C2847D6ED00297131 /* ApiManager.swift */,
+			);
+			path = APIManager;
+			sourceTree = "<group>";
+		};
+		9588C85E2847D7A900297131 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9588C8612847D7C600297131 /* Items.swift */,
+				9588C85F2847D7C600297131 /* Yoga_categories.swift */,
+				9588C8602847D7C600297131 /* Yoga.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9588C8652847DC3100297131 /* LaunchScreen */ = {
+			isa = PBXGroup;
+			children = (
+				9588C8662847DC4900297131 /* LaunchViewController.swift */,
+			);
+			path = LaunchScreen;
+			sourceTree = "<group>";
+		};
+		95A03A2F2833D22C00DCBFC7 /* AlertCell */ = {
+			isa = PBXGroup;
+			children = (
+				95A03A302833D24000DCBFC7 /* DayPickerTableViewCell.swift */,
+			);
+			path = AlertCell;
+			sourceTree = "<group>";
+		};
+		95D2543E28491EE700C13C0A /* Yoga-Pose */ = {
+			isa = PBXGroup;
+			children = (
+				95D2543F28491EFF00C13C0A /* YogaPoseViewController.swift */,
+			);
+			path = "Yoga-Pose";
+			sourceTree = "<group>";
+		};
+		DA0A5C1E9D6A60B08C365869 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				13D190B0A4CA6844A82CC94E /* Pods_FamTracker.framework */,
+				E10A3A5E777C1C3B4D4181B4 /* Pods_FamTracker_FamTrackerUITests.framework */,
+				0146EEF21AE970903D9CE836 /* Pods_FamTrackerTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DB5E486312D8BF6BE003D560 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				564CD8497891261ED00FAD67 /* Pods-FamTracker.debug.xcconfig */,
+				E587860B2F82CE3830D6A709 /* Pods-FamTracker.release.xcconfig */,
+				8236EFDFCDFDE60F644FE3DA /* Pods-FamTracker-FamTrackerUITests.debug.xcconfig */,
+				B028EC52AFC109C601573131 /* Pods-FamTracker-FamTrackerUITests.release.xcconfig */,
+				19273EF956A97798B2750FCD /* Pods-FamTrackerTests.debug.xcconfig */,
+				4D4A7A25892C75145312C654 /* Pods-FamTrackerTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		957FF1622832A44F00C12DFC /* FamTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 957FF1902832A45800C12DFC /* Build configuration list for PBXNativeTarget "FamTracker" */;
+			buildPhases = (
+				948B514CE5FBC5F7EDB255FF /* [CP] Check Pods Manifest.lock */,
+				957FF15F2832A44F00C12DFC /* Sources */,
+				957FF1602832A44F00C12DFC /* Frameworks */,
+				957FF1612832A44F00C12DFC /* Resources */,
+				13D4DD80690DA989758BE21B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FamTracker;
+			productName = FamTracker;
+			productReference = 957FF1632832A44F00C12DFC /* FamTracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		957FF17B2832A45700C12DFC /* FamTrackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 957FF1932832A45800C12DFC /* Build configuration list for PBXNativeTarget "FamTrackerTests" */;
+			buildPhases = (
+				91A971DE49DC2ED2B4784127 /* [CP] Check Pods Manifest.lock */,
+				957FF1782832A45700C12DFC /* Sources */,
+				957FF1792832A45700C12DFC /* Frameworks */,
+				957FF17A2832A45700C12DFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				957FF17E2832A45700C12DFC /* PBXTargetDependency */,
+			);
+			name = FamTrackerTests;
+			productName = FamTrackerTests;
+			productReference = 957FF17C2832A45700C12DFC /* FamTrackerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		957FF1852832A45700C12DFC /* FamTrackerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 957FF1962832A45800C12DFC /* Build configuration list for PBXNativeTarget "FamTrackerUITests" */;
+			buildPhases = (
+				771203671DBFF2AC38925751 /* [CP] Check Pods Manifest.lock */,
+				957FF1822832A45700C12DFC /* Sources */,
+				957FF1832832A45700C12DFC /* Frameworks */,
+				957FF1842832A45700C12DFC /* Resources */,
+				1AD733ED7B30959D6780BFD7 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				957FF1882832A45700C12DFC /* PBXTargetDependency */,
+			);
+			name = FamTrackerUITests;
+			productName = FamTrackerUITests;
+			productReference = 957FF1862832A45700C12DFC /* FamTrackerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		957FF15B2832A44F00C12DFC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					957FF1622832A44F00C12DFC = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					957FF17B2832A45700C12DFC = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 957FF1622832A44F00C12DFC;
+					};
+					957FF1852832A45700C12DFC = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 957FF1622832A44F00C12DFC;
+					};
+				};
+			};
+			buildConfigurationList = 957FF15E2832A44F00C12DFC /* Build configuration list for PBXProject "FamTracker" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 957FF15A2832A44F00C12DFC;
+			productRefGroup = 957FF1642832A44F00C12DFC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				957FF1622832A44F00C12DFC /* FamTracker */,
+				957FF17B2832A45700C12DFC /* FamTrackerTests */,
+				957FF1852832A45700C12DFC /* FamTrackerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		957FF1612832A44F00C12DFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				957FF1762832A45700C12DFC /* LaunchScreen.storyboard in Resources */,
+				957FF1732832A45700C12DFC /* Assets.xcassets in Resources */,
+				95899FE5284DF23800626AD6 /* GoogleService-Info.plist in Resources */,
+				957FF16E2832A44F00C12DFC /* Main.storyboard in Resources */,
+				957F463128338FB800ADD0A8 /* Alert.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		957FF17A2832A45700C12DFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		957FF1842832A45700C12DFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		13D4DD80690DA989758BE21B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FamTracker/Pods-FamTracker-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FamTracker/Pods-FamTracker-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FamTracker/Pods-FamTracker-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1AD733ED7B30959D6780BFD7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FamTracker-FamTrackerUITests/Pods-FamTracker-FamTrackerUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FamTracker-FamTrackerUITests/Pods-FamTracker-FamTrackerUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FamTracker-FamTrackerUITests/Pods-FamTracker-FamTrackerUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		771203671DBFF2AC38925751 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FamTracker-FamTrackerUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		91A971DE49DC2ED2B4784127 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FamTrackerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		948B514CE5FBC5F7EDB255FF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FamTracker-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		957FF15F2832A44F00C12DFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95A03A33283413F900DCBFC7 /* GoalViewController.swift in Sources */,
+				958B6ABA284F5509001294CC /* AboutUsTableViewCell.swift in Sources */,
+				9588C8632847D7C600297131 /* Yoga.swift in Sources */,
+				957EA591283638AD0017D1AC /* showHabitsViewController.swift in Sources */,
+				957F462E28337D6100ADD0A8 /* MyHabitsTableViewCell.swift in Sources */,
+				9588C8642847D7C600297131 /* Items.swift in Sources */,
+				952F2FBE2832D2CD009405F3 /* CreateYourOwnVC.swift in Sources */,
+				95A03A312833D24000DCBFC7 /* DayPickerTableViewCell.swift in Sources */,
+				9588C8622847D7C600297131 /* Yoga_categories.swift in Sources */,
+				95A03A2C2833BF6C00DCBFC7 /* DateConverter.swift in Sources */,
+				95A03A2E2833D09600DCBFC7 /* DayPickerViewController.swift in Sources */,
+				957FF16B2832A44F00C12DFC /* ViewController.swift in Sources */,
+				957FF19B2832BAC500C12DFC /* ListHabbitsViewController.swift in Sources */,
+				957FF1672832A44F00C12DFC /* AppDelegate.swift in Sources */,
+				957F463328338FED00ADD0A8 /* LocationVC.swift in Sources */,
+				957F46352833900900ADD0A8 /* AlertService.swift in Sources */,
+				957F462328335C2600ADD0A8 /* Register.swift in Sources */,
+				957FF1692832A44F00C12DFC /* SceneDelegate.swift in Sources */,
+				952F2FC22832D536009405F3 /* Screen.swift in Sources */,
+				957FF19E2832BAE700C12DFC /* ListHabbitCollectionViewCell.swift in Sources */,
+				9588C8672847DC4900297131 /* LaunchViewController.swift in Sources */,
+				9588C85D2847D6ED00297131 /* ApiManager.swift in Sources */,
+				95A03A2A2833BE4B00DCBFC7 /* DateAndTimePickerVC.swift in Sources */,
+				957F462C28337CE500ADD0A8 /* MyHabitsVC.swift in Sources */,
+				958B6ABC284F5520001294CC /* AboutUsViewController.swift in Sources */,
+				957FF1712832A44F00C12DFC /* FamTracker.xcdatamodeld in Sources */,
+				957EA58F283621370017D1AC /* Habits.swift in Sources */,
+				95D2543D28491EB000C13C0A /* YogaPoseTableViewCell.swift in Sources */,
+				957FF1A12832BC2D00C12DFC /* ListArray.swift in Sources */,
+				95D2544028491EFF00C13C0A /* YogaPoseViewController.swift in Sources */,
+				957F462628335FA600ADD0A8 /* RegisterUserVC.swift in Sources */,
+				957F46282833723000ADD0A8 /* Utils.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		957FF1782832A45700C12DFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				957FF1812832A45700C12DFC /* FamTrackerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		957FF1822832A45700C12DFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				957FF18D2832A45800C12DFC /* FamTrackerUITestsLaunchTests.swift in Sources */,
+				957FF18B2832A45700C12DFC /* FamTrackerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		957FF17E2832A45700C12DFC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 957FF1622832A44F00C12DFC /* FamTracker */;
+			targetProxy = 957FF17D2832A45700C12DFC /* PBXContainerItemProxy */;
+		};
+		957FF1882832A45700C12DFC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 957FF1622832A44F00C12DFC /* FamTracker */;
+			targetProxy = 957FF1872832A45700C12DFC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		957FF16C2832A44F00C12DFC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				957FF16D2832A44F00C12DFC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		957FF1742832A45700C12DFC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				957FF1752832A45700C12DFC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		957FF18E2832A45800C12DFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		957FF18F2832A45800C12DFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		957FF1912832A45800C12DFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 564CD8497891261ED00FAD67 /* Pods-FamTracker.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LAUDCVU974;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FamTracker/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "FamTracker Want to use your location becouse have to show current location?";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "FamTracker Want to use your location becouse have to show current location?";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dheer.FamTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		957FF1922832A45800C12DFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E587860B2F82CE3830D6A709 /* Pods-FamTracker.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LAUDCVU974;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FamTracker/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "FamTracker Want to use your location becouse have to show current location?";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "FamTracker Want to use your location becouse have to show current location?";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dheer.FamTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		957FF1942832A45800C12DFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19273EF956A97798B2750FCD /* Pods-FamTrackerTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LAUDCVU974;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dheer.FamTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FamTracker.app/FamTracker";
+			};
+			name = Debug;
+		};
+		957FF1952832A45800C12DFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D4A7A25892C75145312C654 /* Pods-FamTrackerTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LAUDCVU974;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dheer.FamTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FamTracker.app/FamTracker";
+			};
+			name = Release;
+		};
+		957FF1972832A45800C12DFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8236EFDFCDFDE60F644FE3DA /* Pods-FamTracker-FamTrackerUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LAUDCVU974;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dheer.FamTrackerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FamTracker;
+			};
+			name = Debug;
+		};
+		957FF1982832A45800C12DFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B028EC52AFC109C601573131 /* Pods-FamTracker-FamTrackerUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LAUDCVU974;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dheer.FamTrackerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FamTracker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		957FF15E2832A44F00C12DFC /* Build configuration list for PBXProject "FamTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				957FF18E2832A45800C12DFC /* Debug */,
+				957FF18F2832A45800C12DFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		957FF1902832A45800C12DFC /* Build configuration list for PBXNativeTarget "FamTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				957FF1912832A45800C12DFC /* Debug */,
+				957FF1922832A45800C12DFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		957FF1932832A45800C12DFC /* Build configuration list for PBXNativeTarget "FamTrackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				957FF1942832A45800C12DFC /* Debug */,
+				957FF1952832A45800C12DFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		957FF1962832A45800C12DFC /* Build configuration list for PBXNativeTarget "FamTrackerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				957FF1972832A45800C12DFC /* Debug */,
+				957FF1982832A45800C12DFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		957FF16F2832A44F00C12DFC /* FamTracker.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				957FF1702832A44F00C12DFC /* FamTracker.xcdatamodel */,
+			);
+			currentVersion = 957FF1702832A44F00C12DFC /* FamTracker.xcdatamodel */;
+			path = FamTracker.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 957FF15B2832A44F00C12DFC /* Project object */;
+}

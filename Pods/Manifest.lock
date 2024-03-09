@@ -1,0 +1,30 @@
+PODS:
+  - Alamofire (5.6.1)
+  - DLLocalNotifications (0.09)
+  - SDWebImage (5.12.5):
+    - SDWebImage/Core (= 5.12.5)
+  - SDWebImage/Core (5.12.5)
+  - SwiftLocalNotification (1.0.3)
+
+DEPENDENCIES:
+  - Alamofire (~> 5.2)
+  - DLLocalNotifications
+  - SDWebImage (~> 5.12)
+  - SwiftLocalNotification
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - DLLocalNotifications
+    - SDWebImage
+    - SwiftLocalNotification
+
+SPEC CHECKSUMS:
+  Alamofire: 87bd8c952f9a4454320fce00d9cc3de57bcadaf5
+  DLLocalNotifications: 4c81c059c8a890b5a4bf79e5e4d4c8ff26e8500c
+  SDWebImage: 0905f1b7760fc8ac4198cae0036600d67478751e
+  SwiftLocalNotification: 971b8530997948187f97b7125f7acc88112640a3
+
+PODFILE CHECKSUM: 84b6439a8205c7aebba65734a5d4c6e90b7c2b0e
+
+COCOAPODS: 1.11.3

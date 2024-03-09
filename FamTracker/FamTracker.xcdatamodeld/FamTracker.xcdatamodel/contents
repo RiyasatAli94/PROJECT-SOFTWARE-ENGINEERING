@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="20086" systemVersion="21E258" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Dheer" representedClassName="Dheer" syncable="YES" codeGenerationType="class"/>
+    <entity name="Habits" representedClassName="Habits" syncable="YES" codeGenerationType="class">
+        <attribute name="goal" optional="YES" attributeType="String"/>
+        <attribute name="habitName" optional="YES" attributeType="String"/>
+        <attribute name="icon" optional="YES" attributeType="Binary"/>
+        <attribute name="id" optional="YES" attributeType="String"/>
+        <attribute name="lat" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="location" optional="YES" attributeType="String"/>
+        <attribute name="long" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="reapetTime" optional="YES" attributeType="String"/>
+        <attribute name="reminderTime" optional="YES" attributeType="String"/>
+        <attribute name="startDate" optional="YES" attributeType="String"/>
+        <attribute name="timeOfDay" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="Register" representedClassName="Register" syncable="YES" codeGenerationType="class">
+        <attribute name="email" optional="YES" attributeType="String"/>
+        <attribute name="mobile" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="pasword" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="Habits" positionX="-63" positionY="9" width="128" height="194"/>
+        <element name="Register" positionX="-63" positionY="-18" width="128" height="89"/>
+        <element name="Dheer" positionX="-63" positionY="81" width="128" height="29"/>
+    </elements>
+</model>
